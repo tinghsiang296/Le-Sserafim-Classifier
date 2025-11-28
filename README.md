@@ -1,74 +1,112 @@
+# ✦ LE SSERAFIM Lens: AI Identity Classifier
 
-<h1 align="center">✨ LE SSERAFIM 團員分類器 ✨</h1>
-<p align="center">一個基於深度學習的圖片分類器，幫你辨識 LE SSERAFIM 成員！</p>
+> *"I'm Fearless." — Capturing the essence of the icons through the lens of AI.*
 
----
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://le-sserafim-classifier-c3vse6mkuswuk9fktnbakt.streamlit.app/)
 
-<p align="center">
-  <a href="https://le-sserafim-classifier-c3vse6mkuswuk9fktnbakt.streamlit.app/">
-    <img src="https://img.shields.io/badge/💗 Live Demo-Streamlit-ff6fb0?style=for-the-badge">
-  </a>
-</p>
+## 🎐 前言 (Prologue)
+這是一個探索光影與辨識技術的實驗場域。本專案參考 **蔡炎龍老師 (Yen-Lung Tsai) 的 Demo 作業**，試圖將深度學習模型封裝於優雅的 Web 介面中。我們讓機器學會了辨識，讓每一張上傳的照片，都能找到它歸屬的名字。
 
-<p align="center">
-  🔗 <strong>Demo URL：</strong><br>
-  https://le-sserafim-classifier-c3vse6mkuswuk9fktnbakt.streamlit.app/
-</p>
+## 🪐 核心功能 (Features)
+透過神經網絡的運算，本系統能精準捕捉並辨識 LE SSERAFIM 五位成員的獨特特徵：
 
-<p align="center">
-  <img src="banner.png" width="650">
-</p>
+* 🌸 **Sakura (宮脇咲良)** - The Beauty of Experience
+* 🐯 **Chaewon (金采源)** - The Charismatic Leader
+* 🐍 **Yunjin (許允眞)** - The Voice of Truth
+* 🦢 **Kazuha (中村一葉)** - The Elegant Swan
+* 🐈 **Eunchae (洪恩採)** - The Shining Maknae
 
----
+## 🎨 技術調色盤 (Tech Palette)
+我們使用了以下工具來繪製這個專案：
 
-## 📚 目錄
-- [簡介](#簡介)
-- [功能特色](#功能特色)
-- [技術架構](#技術架構)
-- [專案結構](#專案結構)
-- [安裝與執行](#安裝與執行)
-- [模型訓練流程](#模型訓練流程)
-- [Demo 網站](#demo-網站)
+| Component | Technology | Description |
+| :--- | :--- | :--- |
+| **Canvas** | `Streamlit` | 極簡互動式網頁框架 |
+| **Brain** | `TensorFlow` / `PyTorch` | 卷積神經網絡 (CNN) 模型 |
+| **Vision** | `Pillow (PIL)` | 影像前處理與渲染 |
+| **Logic** | `Python` | 核心邏輯語言 |
 
----
+## 🕯️ 啟動儀式 (Installation & Usage)
 
-## 📝 簡介
-這是一個使用 **深度學習（fastai + PyTorch）** 訓練的圖片分類模型，  
-並透過 **Streamlit Cloud** 建立的線上 Demo，  
-可辨識 LE SSERAFIM 的五位成員。
+若您希望在本地端重現這個數位畫廊，請遵循以下步驟：
 
-本專案改寫自蔡炎龍老師的 fastai 圖像辨識 Demo，資料集已換成 LE SSERAFIM 成員。
+**1. 環境佈置 (Setup)**
+確保您的 Python 環境已就緒，並安裝必要的依賴套件：
+```bash
+pip install -r requirements.txt
 
----
+📜 專案結構 (Blueprint)
+📂 LE-SSERAFIM-Lens
+├── 📜 app.py             # 主程式：靈魂所在
+├── 🔮 model.h5           # 模型權重：記憶的核心
+├── 📦 requirements.txt   # 相依套件：必要的顏料
+└── 📖 README.md          # 說明文件：導覽手冊
 
-## ✨ 功能特色
-- 📸 支援上傳照片並即時辨識  
-- 🌐 免費線上體驗（Streamlit Cloud）  
-- 🤖 使用 ResNet 預訓練模型（高準確率）  
-- 📊 顯示預測機率與推論結果  
-- 🎨 介面簡潔、美觀、易於使用  
+##
+這份設計將科技的理性與粉絲的感性結合，為您的專案注入一股現代藝術的氣息。我們將重點放在「視覺的純粹」與「互動的優雅」。
 
----
+✦ 專案概念：數位視界的繆思 (The Digital Muse)
+這個網站不僅僅是一個影像分類器，它是通往 LE SSERAFIM 視覺宇宙的數位入口。
 
-## 🧠 技術架構
+透過 Streamlit 的極簡美學與 深度學習 的精準洞察，我們將一張張靜止的影像轉化為數據的詩篇。當您上傳照片時，AI 彷彿在凝視這瞬間的光影，細細解析 Sakura 的眼神、Chaewon 的氣場、Yunjin 的自信、Kazuha 的優雅與 Eunchae 的靈動，並在數位畫布上給出它的答案。
 
-- **Python 3.x**
-- **fastai / PyTorch**（模型訓練與推論）
-- **Streamlit**（前端介面）
-- **Pillow / OpenCV**（影像處理）
-- **Streamlit Cloud** 部署
+❝ 靈感致謝 / Special Acknowledgment ❞
 
----
+本專案的誕生，源自於 蔡炎龍老師 (Yen-Lung Tsai) 的啟發與 Demo 作業。 是他在程式碼的邏輯中，引領我們看見了應用開發的藝術性。
 
-## 📁 專案結構
+✦ 專案 README：代碼的藝術手札
+以下為您準備了一份兼具美感與實用性的 README.md，您可以直接複製使用：
 
-```text
-.
-├── app.py                    # Streamlit 主程式
-├── model/
-│   └── le_sserafim.pkl       # 訓練好的模型（fastai 匯出）
-├── data/
-│   ├── train/                # 訓練資料（依需要放）
-│   └── valid/                # 驗證資料
-├── requirements.txt          # Python 套件
-└── README.md                 # 說明文件
+Markdown
+
+# ✦ LE SSERAFIM Lens: AI Identity Classifier
+
+> *"I'm Fearless." — Capturing the essence of the icons through the lens of AI.*
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://le-sserafim-classifier-c3vse6mkuswuk9fktnbakt.streamlit.app/)
+
+## 🎐 前言 (Prologue)
+這是一個探索光影與辨識技術的實驗場域。本專案參考 **蔡炎龍老師 (Yen-Lung Tsai) 的 Demo 作業**，試圖將深度學習模型封裝於優雅的 Web 介面中。我們讓機器學會了辨識，讓每一張上傳的照片，都能找到它歸屬的名字。
+
+## 🪐 核心功能 (Features)
+透過神經網絡的運算，本系統能精準捕捉並辨識 LE SSERAFIM 五位成員的獨特特徵：
+
+* 🌸 **Sakura (宮脇咲良)** - The Beauty of Experience
+* 🐯 **Chaewon (金采源)** - The Charismatic Leader
+* 🐍 **Yunjin (許允眞)** - The Voice of Truth
+* 🦢 **Kazuha (中村一葉)** - The Elegant Swan
+* 🐈 **Eunchae (洪恩採)** - The Shining Maknae
+
+## 🎨 技術調色盤 (Tech Palette)
+我們使用了以下工具來繪製這個專案：
+
+| Component | Technology | Description |
+| :--- | :--- | :--- |
+| **Canvas** | `Streamlit` | 極簡互動式網頁框架 |
+| **Brain** | `TensorFlow` / `PyTorch` | 卷積神經網絡 (CNN) 模型 |
+| **Vision** | `Pillow (PIL)` | 影像前處理與渲染 |
+| **Logic** | `Python` | 核心邏輯語言 |
+
+## 🕯️ 啟動儀式 (Installation & Usage)
+
+若您希望在本地端重現這個數位畫廊，請遵循以下步驟：
+
+**1. 環境佈置 (Setup)**
+確保您的 Python 環境已就緒，並安裝必要的依賴套件：
+```bash
+pip install -r requirements.txt
+2. 喚醒程式 (Run) 在終端機輸入指令，開啟通往 AI 視窗的大門：
+
+Bash
+
+streamlit run app.py
+📜 專案結構 (Blueprint)
+Plaintext
+
+📂 LE-SSERAFIM-Lens
+├── 📜 app.py             # 主程式：靈魂所在
+├── 🔮 model.h5           # 模型權重：記憶的核心
+├── 📦 requirements.txt   # 相依套件：必要的顏料
+└── 📖 README.md          # 說明文件：導覽手冊
+
+
