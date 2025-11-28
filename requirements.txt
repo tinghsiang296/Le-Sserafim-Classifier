@@ -1,0 +1,5 @@
+fastai
+duckduckgo_search
+streamlit
+plotly
+watchdog
